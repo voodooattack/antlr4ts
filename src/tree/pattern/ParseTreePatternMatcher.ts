@@ -5,29 +5,29 @@
 
 // CONVERSTION complete, Burt Harris 10/14/2016
 
-import { BailErrorStrategy } from "../../BailErrorStrategy";
-import { CharStreams } from "../../CharStreams";
-import { Chunk } from "./Chunk";
-import { CommonTokenStream } from "../../CommonTokenStream";
-import { Lexer } from "../../Lexer";
-import { ListTokenSource } from "../../ListTokenSource";
-import { MultiMap } from "../../misc/MultiMap";
-import { NotNull } from "../../Decorators";
-import { ParseCancellationException } from "../../misc/ParseCancellationException";
-import { Parser } from "../../Parser";
-import { ParserInterpreter } from "../../ParserInterpreter";
-import { ParserRuleContext } from "../../ParserRuleContext";
-import { ParseTree } from "../ParseTree";
-import { ParseTreeMatch } from "./ParseTreeMatch";
-import { ParseTreePattern } from "./ParseTreePattern";
-import { RecognitionException } from "../../RecognitionException";
-import { RuleNode } from "../RuleNode";
-import { RuleTagToken } from "./RuleTagToken";
-import { TagChunk } from "./TagChunk";
-import { TerminalNode } from "../TerminalNode";
-import { TextChunk } from "./TextChunk";
-import { Token } from "../../Token";
-import { TokenTagToken } from "./TokenTagToken";
+import { BailErrorStrategy } from "../../BailErrorStrategy.js"
+import { CharStreams } from "../../CharStreams.js"
+import { Chunk } from "./Chunk.js"
+import { CommonTokenStream } from "../../CommonTokenStream.js"
+import { Lexer } from "../../Lexer.js"
+import { ListTokenSource } from "../../ListTokenSource.js"
+import { MultiMap } from "../../misc/MultiMap.js"
+import { NotNull } from "../../Decorators.js"
+import { ParseCancellationException } from "../../misc/ParseCancellationException.js"
+import { Parser } from "../../Parser.js"
+import { ParserInterpreter } from "../../ParserInterpreter.js"
+import { ParserRuleContext } from "../../ParserRuleContext.js"
+import { ParseTree } from "../ParseTree.js"
+import { ParseTreeMatch } from "./ParseTreeMatch.js"
+import { ParseTreePattern } from "./ParseTreePattern.js"
+import { RecognitionException } from "../../RecognitionException.js"
+import { RuleNode } from "../RuleNode.js"
+import { RuleTagToken } from "./RuleTagToken.js"
+import { TagChunk } from "./TagChunk.js"
+import { TerminalNode } from "../TerminalNode.js"
+import { TextChunk } from "./TextChunk.js"
+import { Token } from "../../Token.js"
+import { TokenTagToken } from "./TokenTagToken.js"
 
 /**
  * A tree pattern matching mechanism for ANTLR {@link ParseTree}s.

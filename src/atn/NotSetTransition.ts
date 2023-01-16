@@ -5,12 +5,12 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:30.8483617-07:00
 
-import { ATNState } from "./ATNState";
-import { IntervalSet } from "../misc/IntervalSet";
-import { Override, NotNull, Nullable } from "../Decorators";
-import { SetTransition } from "./SetTransition";
-import { Transition } from "./Transition";
-import { TransitionType } from "./TransitionType";
+import { ATNState } from "./ATNState.js"
+import { IntervalSet } from "../misc/IntervalSet.js"
+import { Override, NotNull, Nullable } from "../Decorators.js"
+import { SetTransition } from "./SetTransition.js"
+import { Transition } from "./Transition.js"
+import { TransitionType } from "./TransitionType.js"
 
 export class NotSetTransition extends SetTransition {
 	constructor(@NotNull target: ATNState, @Nullable set: IntervalSet) {

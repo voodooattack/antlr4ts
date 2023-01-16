@@ -6,39 +6,39 @@
 // ConvertTo-TS run at 2016-10-04T11:26:52.4399193-07:00
 
 import * as assert from "assert";
-import * as Utils from "./misc/Utils";
+import * as Utils from "./misc/Utils.js"
 
-import { ANTLRErrorListener } from "./ANTLRErrorListener";
-import { ANTLRErrorStrategy } from "./ANTLRErrorStrategy";
-import { ATN } from "./atn/ATN";
-import { ATNDeserializationOptions } from "./atn/ATNDeserializationOptions";
-import { ATNDeserializer } from "./atn/ATNDeserializer";
-import { ATNSimulator } from "./atn/ATNSimulator";
-import { ATNState } from "./atn/ATNState";
-import { DefaultErrorStrategy } from "./DefaultErrorStrategy";
-import { DFA } from "./dfa/DFA";
-import { ErrorNode } from "./tree/ErrorNode";
-import { IntegerStack } from "./misc/IntegerStack";
-import { IntervalSet } from "./misc/IntervalSet";
-import { IntStream } from "./IntStream";
-import { Lexer } from "./Lexer";
-import { Override, NotNull, Nullable } from "./Decorators";
-import { ParseInfo } from "./atn/ParseInfo";
-import { ParserATNSimulator } from "./atn/ParserATNSimulator";
-import { ParserErrorListener } from "./ParserErrorListener";
-import { ParserRuleContext } from "./ParserRuleContext";
-import { ParseTreeListener } from "./tree/ParseTreeListener";
-import { ParseTreePattern } from "./tree/pattern/ParseTreePattern";
-import { ProxyParserErrorListener } from "./ProxyParserErrorListener";
-import { RecognitionException } from "./RecognitionException";
-import { Recognizer } from "./Recognizer";
-import { RuleContext } from "./RuleContext";
-import { RuleTransition } from "./atn/RuleTransition";
-import { TerminalNode } from "./tree/TerminalNode";
-import { Token } from "./Token";
-import { TokenFactory } from "./TokenFactory";
-import { TokenSource } from "./TokenSource";
-import { TokenStream } from "./TokenStream";
+import { ANTLRErrorListener } from "./ANTLRErrorListener.js"
+import { ANTLRErrorStrategy } from "./ANTLRErrorStrategy.js"
+import { ATN } from "./atn/ATN.js"
+import { ATNDeserializationOptions } from "./atn/ATNDeserializationOptions.js"
+import { ATNDeserializer } from "./atn/ATNDeserializer.js"
+import { ATNSimulator } from "./atn/ATNSimulator.js"
+import { ATNState } from "./atn/ATNState.js"
+import { DefaultErrorStrategy } from "./DefaultErrorStrategy.js"
+import { DFA } from "./dfa/DFA.js"
+import { ErrorNode } from "./tree/ErrorNode.js"
+import { IntegerStack } from "./misc/IntegerStack.js"
+import { IntervalSet } from "./misc/IntervalSet.js"
+import { IntStream } from "./IntStream.js"
+import { Lexer } from "./Lexer.js"
+import { Override, NotNull, Nullable } from "./Decorators.js"
+import { ParseInfo } from "./atn/ParseInfo.js"
+import { ParserATNSimulator } from "./atn/ParserATNSimulator.js"
+import { ParserErrorListener } from "./ParserErrorListener.js"
+import { ParserRuleContext } from "./ParserRuleContext.js"
+import { ParseTreeListener } from "./tree/ParseTreeListener.js"
+import { ParseTreePattern } from "./tree/pattern/ParseTreePattern.js"
+import { ProxyParserErrorListener } from "./ProxyParserErrorListener.js"
+import { RecognitionException } from "./RecognitionException.js"
+import { Recognizer } from "./Recognizer.js"
+import { RuleContext } from "./RuleContext.js"
+import { RuleTransition } from "./atn/RuleTransition.js"
+import { TerminalNode } from "./tree/TerminalNode.js"
+import { Token } from "./Token.js"
+import { TokenFactory } from "./TokenFactory.js"
+import { TokenSource } from "./TokenSource.js"
+import { TokenStream } from "./TokenStream.js"
 
 class TraceListener implements ParseTreeListener {
 	constructor(private ruleNames: string[], private tokenStream: TokenStream) {
@@ -446,7 +446,7 @@ export abstract class Parser extends Recognizer<Token, ParserATNSimulator> {
 		}
 
 		let currentLexer = lexer;
-		let m = await import("./tree/pattern/ParseTreePatternMatcher");
+		let m = await import("./tree/pattern/ParseTreePatternMatcher.js");
 		let matcher = new m.ParseTreePatternMatcher(currentLexer, this);
 		return matcher.compile(pattern, patternRuleIndex);
 	}
@@ -875,10 +875,10 @@ export abstract class Parser extends Recognizer<Token, ParserATNSimulator> {
 
 	@Override
 	get parseInfo(): Promise<ParseInfo | undefined> {
-		return import("./atn/ProfilingATNSimulator").then((m) => {
+		return import("./atn/ProfilingATNSimulator.js").then((m) => {
 			let interp: ParserATNSimulator = this.interpreter;
 			if (interp instanceof m.ProfilingATNSimulator) {
-				return new ParseInfo(interp);
+				return new ParseInfo(interp as any);
 			}
 
 			return undefined;
@@ -889,7 +889,7 @@ export abstract class Parser extends Recognizer<Token, ParserATNSimulator> {
 	 * @since 4.3
 	 */
 	public async setProfile(profile: boolean): Promise<void> {
-		let m = await import("./atn/ProfilingATNSimulator");
+		let m = await import("./atn/ProfilingATNSimulator.js");
 		let interp: ParserATNSimulator = this.interpreter;
 		if (profile) {
 			if (!(interp instanceof m.ProfilingATNSimulator)) {

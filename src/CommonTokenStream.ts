@@ -5,10 +5,10 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:50.3953157-07:00
 
-import { BufferedTokenStream } from "./BufferedTokenStream";
-import { NotNull, Override } from "./Decorators";
-import { Token } from "./Token";
-import { TokenSource } from "./TokenSource";
+import { BufferedTokenStream } from "./BufferedTokenStream.js"
+import { NotNull, Override } from "./Decorators.js"
+import { Token } from "./Token.js"
+import { TokenSource } from "./TokenSource.js"
 
 /**
  * This class extends {@link BufferedTokenStream} with functionality to filter

@@ -3,11 +3,11 @@
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
 
-import { EqualityComparator } from "./EqualityComparator";
-import { Override } from "../Decorators";
-import { Equatable } from "./Stubs";
-import { MurmurHash } from "./MurmurHash";
-import { ObjectEqualityComparator } from "./ObjectEqualityComparator";
+import { EqualityComparator } from "./EqualityComparator.js"
+import { Override } from "../Decorators.js"
+import { Equatable } from "./Stubs.js"
+import { MurmurHash } from "./MurmurHash.js"
+import { ObjectEqualityComparator } from "./ObjectEqualityComparator.js"
 
 /**
  * This default implementation of {@link EqualityComparator} uses object equality

@@ -4,11 +4,11 @@
  */
 
 import * as assert from "assert";
-import { CharStream } from "./CharStream";
-import { CodePointBuffer } from "./CodePointBuffer";
-import { IntStream } from "./IntStream";
-import { Interval } from "./misc/Interval";
-import { Override } from "./Decorators";
+import { CharStream } from "./CharStream.js"
+import { CodePointBuffer } from "./CodePointBuffer.js"
+import { IntStream } from "./IntStream.js"
+import { Interval } from "./misc/Interval.js"
+import { Override } from "./Decorators.js"
 
 /**
  * Alternative to {@link ANTLRInputStream} which treats the input

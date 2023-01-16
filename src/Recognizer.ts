@@ -4,21 +4,21 @@
  */
 
 // ConvertTo-TS run at 2016-10-04T11:26:57.1954441-07:00
-import { ANTLRErrorListener } from "./ANTLRErrorListener";
-import { ATN } from "./atn/ATN";
-import { ATNSimulator } from "./atn/ATNSimulator";
-import { ConsoleErrorListener } from "./ConsoleErrorListener";
-import { IntStream } from "./IntStream";
-import { ParseInfo } from "./atn/ParseInfo";
-import { ProxyErrorListener } from "./ProxyErrorListener";
-import { RecognitionException } from "./RecognitionException";
-import { RuleContext } from "./RuleContext";
-import { SuppressWarnings, NotNull } from "./Decorators";
-import { Token } from "./Token";
-import { Vocabulary } from "./Vocabulary";
-import { VocabularyImpl } from "./VocabularyImpl";
+import { ANTLRErrorListener } from "./ANTLRErrorListener.js"
+import { ATN } from "./atn/ATN.js"
+import { ATNSimulator } from "./atn/ATNSimulator.js"
+import { ConsoleErrorListener } from "./ConsoleErrorListener.js"
+import { IntStream } from "./IntStream.js"
+import { ParseInfo } from "./atn/ParseInfo.js"
+import { ProxyErrorListener } from "./ProxyErrorListener.js"
+import { RecognitionException } from "./RecognitionException.js"
+import { RuleContext } from "./RuleContext.js"
+import { SuppressWarnings, NotNull } from "./Decorators.js"
+import { Token } from "./Token.js"
+import { Vocabulary } from "./Vocabulary.js"
+import { VocabularyImpl } from "./VocabularyImpl.js"
 
-import * as Utils from "./misc/Utils";
+import * as Utils from "./misc/Utils.js"
 
 export abstract class Recognizer<TSymbol, ATNInterpreter extends ATNSimulator> {
 	public static readonly EOF: number = -1;

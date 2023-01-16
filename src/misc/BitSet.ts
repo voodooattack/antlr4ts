@@ -5,7 +5,7 @@
 
 import * as assert from "assert";
 import * as util from "util";
-import { MurmurHash } from "./MurmurHash";
+import { MurmurHash } from "./MurmurHash.js"
 
 /**
  * Private empty array used to construct empty BitSets

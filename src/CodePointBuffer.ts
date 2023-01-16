@@ -4,7 +4,7 @@
  */
 
 import * as assert from "assert";
-import * as Character from "./misc/Character";
+import * as Character from "./misc/Character.js"
 
 /**
  * Wrapper for `Uint8Array` / `Uint16Array` / `Int32Array`.

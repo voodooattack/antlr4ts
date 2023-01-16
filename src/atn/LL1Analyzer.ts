@@ -5,23 +5,23 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:30.4445360-07:00
 
-import { AbstractPredicateTransition } from "./AbstractPredicateTransition";
-import { Array2DHashSet } from "../misc/Array2DHashSet";
-import { ATN } from "./ATN";
-import { ATNConfig } from "./ATNConfig";
-import { ATNState } from "./ATNState";
-import { BitSet } from "../misc/BitSet";
-import { IntervalSet } from "../misc/IntervalSet";
-import { NotNull } from "../Decorators";
-import { NotSetTransition } from "./NotSetTransition";
-import { ObjectEqualityComparator } from "../misc/ObjectEqualityComparator";
-import { PredictionContext } from "./PredictionContext";
-import { RuleStopState } from "./RuleStopState";
-import { RuleTransition } from "./RuleTransition";
-import { SetTransition } from "./SetTransition";
-import { Token } from "../Token";
-import { Transition } from "./Transition";
-import { WildcardTransition } from "./WildcardTransition";
+import { AbstractPredicateTransition } from "./AbstractPredicateTransition.js"
+import { Array2DHashSet } from "../misc/Array2DHashSet.js"
+import { ATN } from "./ATN.js"
+import { ATNConfig } from "./ATNConfig.js"
+import { ATNState } from "./ATNState.js"
+import { BitSet } from "../misc/BitSet.js"
+import { IntervalSet } from "../misc/IntervalSet.js"
+import { NotNull } from "../Decorators.js"
+import { NotSetTransition } from "./NotSetTransition.js"
+import { ObjectEqualityComparator } from "../misc/ObjectEqualityComparator.js"
+import { PredictionContext } from "./PredictionContext.js"
+import { RuleStopState } from "./RuleStopState.js"
+import { RuleTransition } from "./RuleTransition.js"
+import { SetTransition } from "./SetTransition.js"
+import { Token } from "../Token.js"
+import { Transition } from "./Transition.js"
+import { WildcardTransition } from "./WildcardTransition.js"
 
 export class LL1Analyzer {
 	/** Special value added to the lookahead sets to indicate that we hit

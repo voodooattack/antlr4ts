@@ -5,10 +5,10 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:47.5349010-07:00
 
-import { Parser } from "../Parser";
-import { ParseTreeVisitor } from "./ParseTreeVisitor";
-import { RuleContext } from "../RuleContext";
-import { SyntaxTree } from "./SyntaxTree";
+import { Parser } from "../Parser.js"
+import { ParseTreeVisitor } from "./ParseTreeVisitor.js"
+import { RuleContext } from "../RuleContext.js"
+import { SyntaxTree } from "./SyntaxTree.js"
 
 /** An interface to access the tree of {@link RuleContext} objects created
  *  during a parse that makes the data structure look like a simple parse tree.

@@ -5,22 +5,22 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:46.4373888-07:00
 
-import { CharStreams } from "../../CharStreams";
-import { CommonTokenStream } from "../../CommonTokenStream";
-import { LexerNoViableAltException } from "../../LexerNoViableAltException";
-import { Parser } from "../../Parser";
-import { ParserRuleContext } from "../../ParserRuleContext";
-import { ParseTree } from "../ParseTree";
-import { Token } from "../../Token";
-import { XPathElement } from "./XPathElement";
-import { XPathLexer } from "./XPathLexer";
-import { XPathLexerErrorListener } from "./XPathLexerErrorListener";
-import { XPathRuleAnywhereElement } from "./XPathRuleAnywhereElement";
-import { XPathRuleElement } from "./XPathRuleElement";
-import { XPathTokenAnywhereElement } from "./XPathTokenAnywhereElement";
-import { XPathTokenElement } from "./XPathTokenElement";
-import { XPathWildcardAnywhereElement } from "./XPathWildcardAnywhereElement";
-import { XPathWildcardElement } from "./XPathWildcardElement";
+import { CharStreams } from "../../CharStreams.js"
+import { CommonTokenStream } from "../../CommonTokenStream.js"
+import { LexerNoViableAltException } from "../../LexerNoViableAltException.js"
+import { Parser } from "../../Parser.js"
+import { ParserRuleContext } from "../../ParserRuleContext.js"
+import { ParseTree } from "../ParseTree.js"
+import { Token } from "../../Token.js"
+import { XPathElement } from "./XPathElement.js"
+import { XPathLexer } from "./XPathLexer.js"
+import { XPathLexerErrorListener } from "./XPathLexerErrorListener.js"
+import { XPathRuleAnywhereElement } from "./XPathRuleAnywhereElement.js"
+import { XPathRuleElement } from "./XPathRuleElement.js"
+import { XPathTokenAnywhereElement } from "./XPathTokenAnywhereElement.js"
+import { XPathTokenElement } from "./XPathTokenElement.js"
+import { XPathWildcardAnywhereElement } from "./XPathWildcardAnywhereElement.js"
+import { XPathWildcardElement } from "./XPathWildcardElement.js"
 
 /**
  * Represent a subset of XPath XML path syntax for use in identifying nodes in

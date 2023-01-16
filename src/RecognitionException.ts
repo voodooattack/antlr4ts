@@ -4,15 +4,15 @@
  */
 
 // ConvertTo-TS run at 2016-10-04T11:26:57.0697674-07:00
-import { CharStream } from "./CharStream";
-import { IntervalSet } from "./misc/IntervalSet";
-import { IntStream } from "./IntStream";
-import { Lexer } from "./Lexer";
-import { Parser } from "./Parser";
-import { ParserRuleContext } from "./ParserRuleContext";
-import { Recognizer } from "./Recognizer";
-import { RuleContext } from "./RuleContext";
-import { Token } from "./Token";
+import { CharStream } from "./CharStream.js"
+import { IntervalSet } from "./misc/IntervalSet.js"
+import { IntStream } from "./IntStream.js"
+import { Lexer } from "./Lexer.js"
+import { Parser } from "./Parser.js"
+import { ParserRuleContext } from "./ParserRuleContext.js"
+import { Recognizer } from "./Recognizer.js"
+import { RuleContext } from "./RuleContext.js"
+import { Token } from "./Token.js"
 
 
 /** The root of the ANTLR exception hierarchy. In general, ANTLR tracks just

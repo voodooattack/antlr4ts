@@ -5,18 +5,18 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:25.2796692-07:00
 
-import { Array2DHashMap } from "../misc/Array2DHashMap";
-import { ATNState } from "./ATNState";
-import { DecisionState } from "./DecisionState";
-import { Equatable } from "../misc/Stubs";
-import { LexerActionExecutor } from "./LexerActionExecutor";
-import { MurmurHash } from "../misc/MurmurHash";
-import { NotNull, Override } from "../Decorators";
-import { ObjectEqualityComparator } from "../misc/ObjectEqualityComparator";
-import { PredictionContext } from "./PredictionContext";
-import { PredictionContextCache } from "./PredictionContextCache";
-import { Recognizer } from "../Recognizer";
-import { SemanticContext } from "./SemanticContext";
+import { Array2DHashMap } from "../misc/Array2DHashMap.js"
+import { ATNState } from "./ATNState.js"
+import { DecisionState } from "./DecisionState.js"
+import { Equatable } from "../misc/Stubs.js"
+import { LexerActionExecutor } from "./LexerActionExecutor.js"
+import { MurmurHash } from "../misc/MurmurHash.js"
+import { NotNull, Override } from "../Decorators.js"
+import { ObjectEqualityComparator } from "../misc/ObjectEqualityComparator.js"
+import { PredictionContext } from "./PredictionContext.js"
+import { PredictionContextCache } from "./PredictionContextCache.js"
+import { Recognizer } from "../Recognizer.js"
+import { SemanticContext } from "./SemanticContext.js"
 
 import * as assert from "assert";
 

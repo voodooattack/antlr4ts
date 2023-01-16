@@ -4,12 +4,12 @@
  */
 
 // ConvertTo-TS run at 2016-10-04T11:26:47.8252451-07:00
-import { ParseTree } from "./ParseTree";
-import { ParseTreeListener } from "./ParseTreeListener";
-import { ErrorNode } from "./ErrorNode";
-import { TerminalNode } from "./TerminalNode";
-import { RuleNode } from "./RuleNode";
-import { ParserRuleContext } from "../ParserRuleContext";
+import { ParseTree } from "./ParseTree.js"
+import { ParseTreeListener } from "./ParseTreeListener.js"
+import { ErrorNode } from "./ErrorNode.js"
+import { TerminalNode } from "./TerminalNode.js"
+import { RuleNode } from "./RuleNode.js"
+import { ParserRuleContext } from "../ParserRuleContext.js"
 
 export class ParseTreeWalker {
 	/**

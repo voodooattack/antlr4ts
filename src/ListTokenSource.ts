@@ -5,12 +5,12 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:52.1916955-07:00
 
-import { CharStream } from "./CharStream";
-import { CommonTokenFactory } from "./CommonTokenFactory";
-import { NotNull, Override } from "./Decorators";
-import { Token } from "./Token";
-import { TokenFactory } from "./TokenFactory";
-import { TokenSource } from "./TokenSource";
+import { CharStream } from "./CharStream.js"
+import { CommonTokenFactory } from "./CommonTokenFactory.js"
+import { NotNull, Override } from "./Decorators.js"
+import { Token } from "./Token.js"
+import { TokenFactory } from "./TokenFactory.js"
+import { TokenSource } from "./TokenSource.js"
 
 /**
  * Provides an implementation of {@link TokenSource} as a wrapper around a list

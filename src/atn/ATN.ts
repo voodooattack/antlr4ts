@@ -5,24 +5,24 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:25.1063510-07:00
 
-import { Array2DHashMap } from "../misc/Array2DHashMap";
-import { ATNState } from "./ATNState";
-import { ATNType } from "./ATNType";
-import { DecisionState } from "./DecisionState";
-import { DFA } from "../dfa/DFA";
-import { IntervalSet } from "../misc/IntervalSet";
-import { InvalidState } from "./InvalidState";
-import { LexerAction } from "./LexerAction";
-import { LL1Analyzer } from "./LL1Analyzer";
-import { NotNull } from "../Decorators";
-import { ObjectEqualityComparator } from "../misc/ObjectEqualityComparator";
-import { PredictionContext } from "./PredictionContext";
-import { RuleContext } from "../RuleContext";
-import { RuleStartState } from "./RuleStartState";
-import { RuleStopState } from "./RuleStopState";
-import { RuleTransition } from "./RuleTransition";
-import { Token } from "../Token";
-import { TokensStartState } from "./TokensStartState";
+import { Array2DHashMap } from "../misc/Array2DHashMap.js"
+import { ATNState } from "./ATNState.js"
+import { ATNType } from "./ATNType.js"
+import { DecisionState } from "./DecisionState.js"
+import { DFA } from "../dfa/DFA.js"
+import { IntervalSet } from "../misc/IntervalSet.js"
+import { InvalidState } from "./InvalidState.js"
+import { LexerAction } from "./LexerAction.js"
+import { LL1Analyzer } from "./LL1Analyzer.js"
+import { NotNull } from "../Decorators.js"
+import { ObjectEqualityComparator } from "../misc/ObjectEqualityComparator.js"
+import { PredictionContext } from "./PredictionContext.js"
+import { RuleContext } from "../RuleContext.js"
+import { RuleStartState } from "./RuleStartState.js"
+import { RuleStopState } from "./RuleStopState.js"
+import { RuleTransition } from "./RuleTransition.js"
+import { Token } from "../Token.js"
+import { TokensStartState } from "./TokensStartState.js"
 
 import * as assert from "assert";
 

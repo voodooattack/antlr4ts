@@ -8,65 +8,65 @@
 import * as sourceMapSupport from "source-map-support";
 sourceMapSupport.install();
 
-import { ANTLRErrorListener } from "../src/ANTLRErrorListener";
-import { ANTLRInputStream } from "../src/ANTLRInputStream";
-import { Array2DHashSet } from "../src/misc/Array2DHashSet";
-import { ATN } from "../src/atn/ATN";
-import { ATNConfig } from "../src/atn/ATNConfig";
-import { ATNConfigSet } from "../src/atn/ATNConfigSet";
-import { ATNDeserializer } from "../src/atn/ATNDeserializer";
-import { BailErrorStrategy } from "../src/BailErrorStrategy";
-import { BitSet } from "../src/misc/BitSet";
-import { CharStream } from "../src/CharStream";
-import { CharStreams } from "../src/CharStreams";
-import { CodePointBuffer } from "../src/CodePointBuffer";
-import { CodePointCharStream } from "../src/CodePointCharStream";
-import { CommonTokenStream } from "../src/CommonTokenStream";
-import { DefaultErrorStrategy } from "../src/DefaultErrorStrategy";
-import { DFA } from "../src/dfa/DFA";
-import { DFAState } from "../src/dfa/DFAState";
-import { DiagnosticErrorListener } from "../src/DiagnosticErrorListener";
-import { ErrorNode } from "../src/tree/ErrorNode";
-import { Interval } from "../src/misc/Interval";
-import { JavaUnicodeInputStream } from "./JavaUnicodeInputStream";
-import { Lexer } from "../src/Lexer";
-import { LexerATNSimulator } from "../src/atn/LexerATNSimulator";
-import { MurmurHash } from "../src/misc/MurmurHash";
-import { NotNull } from "../src/Decorators";
-import { ObjectEqualityComparator } from "../src/misc/ObjectEqualityComparator";
-import { Override } from "../src/Decorators";
-import { ParseCancellationException } from "../src/misc/ParseCancellationException";
-import { Parser } from "../src/Parser";
-import { ParserATNSimulator } from "../src/atn/ParserATNSimulator";
-import { ParserErrorListener } from "../src/ParserErrorListener";
-import { ParserInterpreter } from "../src/ParserInterpreter";
-import { ParserRuleContext } from "../src/ParserRuleContext";
-import { ParseTree } from "../src/tree/ParseTree";
-import { ParseTreeListener } from "../src/tree/ParseTreeListener";
-import { ParseTreeWalker } from "../src/tree/ParseTreeWalker";
-import { PredictionContextCache } from "../src/atn/PredictionContextCache";
-import { PredictionMode } from "../src/atn/PredictionMode";
-import { RecognitionException } from "../src/RecognitionException";
-import { Recognizer } from "../src/Recognizer";
-import { SimulatorState } from "../src/atn/SimulatorState";
-import { Stopwatch } from "./Stopwatch";
-import { TerminalNode } from "../src/tree/TerminalNode";
-import { TimeSpan } from "./TimeSpan";
-import { Token } from "../src/Token";
-import { TokenSource } from "../src/TokenSource";
-import { TokenStream } from "../src/TokenStream";
+import { ANTLRErrorListener } from "../src/ANTLRErrorListener.js";
+import { ANTLRInputStream } from "../src/ANTLRInputStream.js";
+import { Array2DHashSet } from "../src/misc/Array2DHashSet.js";
+import { ATN } from "../src/atn/ATN.js";
+import { ATNConfig } from "../src/atn/ATNConfig.js";
+import { ATNConfigSet } from "../src/atn/ATNConfigSet.js";
+import { ATNDeserializer } from "../src/atn/ATNDeserializer.js";
+import { BailErrorStrategy } from "../src/BailErrorStrategy.js";
+import { BitSet } from "../src/misc/BitSet.js";
+import { CharStream } from "../src/CharStream.js";
+import { CharStreams } from "../src/CharStreams.js";
+import { CodePointBuffer } from "../src/CodePointBuffer.js";
+import { CodePointCharStream } from "../src/CodePointCharStream.js";
+import { CommonTokenStream } from "../src/CommonTokenStream.js";
+import { DefaultErrorStrategy } from "../src/DefaultErrorStrategy.js";
+import { DFA } from "../src/dfa/DFA.js";
+import { DFAState } from "../src/dfa/DFAState.js";
+import { DiagnosticErrorListener } from "../src/DiagnosticErrorListener.js";
+import { ErrorNode } from "../src/tree/ErrorNode.js";
+import { Interval } from "../src/misc/Interval.js";
+import { JavaUnicodeInputStream } from "./JavaUnicodeInputStream.js";
+import { Lexer } from "../src/Lexer.js";
+import { LexerATNSimulator } from "../src/atn/LexerATNSimulator.js";
+import { MurmurHash } from "../src/misc/MurmurHash.js";
+import { NotNull } from "../src/Decorators.js";
+import { ObjectEqualityComparator } from "../src/misc/ObjectEqualityComparator.js";
+import { Override } from "../src/Decorators.js";
+import { ParseCancellationException } from "../src/misc/ParseCancellationException.js";
+import { Parser } from "../src/Parser.js";
+import { ParserATNSimulator } from "../src/atn/ParserATNSimulator.js";
+import { ParserErrorListener } from "../src/ParserErrorListener.js";
+import { ParserInterpreter } from "../src/ParserInterpreter.js";
+import { ParserRuleContext } from "../src/ParserRuleContext.js";
+import { ParseTree } from "../src/tree/ParseTree.js";
+import { ParseTreeListener } from "../src/tree/ParseTreeListener.js";
+import { ParseTreeWalker } from "../src/tree/ParseTreeWalker.js";
+import { PredictionContextCache } from "../src/atn/PredictionContextCache.js";
+import { PredictionMode } from "../src/atn/PredictionMode.js";
+import { RecognitionException } from "../src/RecognitionException.js";
+import { Recognizer } from "../src/Recognizer.js";
+import { SimulatorState } from "../src/atn/SimulatorState.js";
+import { Stopwatch } from "./Stopwatch.js";
+import { TerminalNode } from "../src/tree/TerminalNode.js";
+import { TimeSpan } from "./TimeSpan.js";
+import { Token } from "../src/Token.js";
+import { TokenSource } from "../src/TokenSource.js";
+import { TokenStream } from "../src/TokenStream.js";
 
-import * as Utils from "../src/misc/Utils";
+import * as Utils from "../src/misc/Utils.js";
 
-import { JavaLexer as JavaLexer } from "./gen/std/JavaLexer";
-import { JavaLexer as JavaLexerAtn } from "./gen/std-atn/JavaLexer";
-import { JavaLRLexer as JavaLRLexer } from "./gen/lr/JavaLRLexer";
-import { JavaLRLexer as JavaLRLexerAtn } from "./gen/lr-atn/JavaLRLexer";
+import { JavaLexer as JavaLexer } from "./gen/std/JavaLexer.js";
+import { JavaLexer as JavaLexerAtn } from "./gen/std-atn/JavaLexer.js";
+import { JavaLRLexer as JavaLRLexer } from "./gen/lr/JavaLRLexer.js";
+import { JavaLRLexer as JavaLRLexerAtn } from "./gen/lr-atn/JavaLRLexer.js";
 
-import { JavaParser as JavaParser } from "./gen/std/JavaParser";
-import { JavaParser as JavaParserAtn } from "./gen/std-atn/JavaParser";
-import { JavaLRParser as JavaLRParser } from "./gen/lr/JavaLRParser";
-import { JavaLRParser as JavaLRParserAtn } from "./gen/lr-atn/JavaLRParser";
+import { JavaParser as JavaParser } from "./gen/std/JavaParser.js";
+import { JavaParser as JavaParserAtn } from "./gen/std-atn/JavaParser.js";
+import { JavaLRParser as JavaLRParser } from "./gen/lr/JavaLRParser.js";
+import { JavaLRParser as JavaLRParserAtn } from "./gen/lr-atn/JavaLRParser.js";
 
 import * as assert from "assert";
 import * as fs from "fs";
@@ -1276,9 +1276,9 @@ export class TestPerformance {
 							}
 
 							if (!TestPerformance.ENABLE_PARSER_DFA) {
-								parser.interpreter = new NonCachingParserATNSimulator(atn, parser);
+								parser.interpreter = new NonCachingParserATNSimulator(atn, parser) as any;
 							} else if (!TestPerformance.REUSE_PARSER_DFA || TestPerformance.COMPUTE_TRANSITION_STATS) {
-								parser.interpreter = new StatisticsParserATNSimulator(atn, parser);
+								parser.interpreter = new StatisticsParserATNSimulator(atn, parser) as any;
 							}
 
 							TestPerformance.sharedParsers[thread] = parser;
@@ -1361,11 +1361,11 @@ export class TestPerformance {
 							parser.addErrorListener(DescriptiveErrorListener.INSTANCE);
 							parser.addErrorListener(new SummarizingDiagnosticErrorListener());
 							if (!TestPerformance.ENABLE_PARSER_DFA) {
-								parser.interpreter = new NonCachingParserATNSimulator(parser.atn, parser);
+								parser.interpreter = new NonCachingParserATNSimulator(parser.atn, parser) as any;
 							} else if (!TestPerformance.REUSE_PARSER_DFA) {
-								parser.interpreter = new StatisticsParserATNSimulator(TestPerformance.sharedParserATNs[thread]!, parser);
+								parser.interpreter = new StatisticsParserATNSimulator(TestPerformance.sharedParserATNs[thread]!, parser) as any;
 							} else if (TestPerformance.COMPUTE_TRANSITION_STATS) {
-								parser.interpreter = new StatisticsParserATNSimulator(parser.atn, parser);
+								parser.interpreter = new StatisticsParserATNSimulator(parser.atn, parser) as any;
 							}
 							parser.interpreter.setPredictionMode(TestPerformance.PREDICTION_MODE);
 							parser.interpreter.force_global_context = TestPerformance.FORCE_GLOBAL_CONTEXT;

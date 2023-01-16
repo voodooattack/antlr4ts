@@ -5,11 +5,11 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:27.4734328-07:00
 
-import { ATN } from "./ATN";
-import { ATNStateType } from "./ATNStateType";
-import { IntervalSet } from "../misc/IntervalSet";
-import { Override } from "../Decorators";
-import { Transition } from "./Transition";
+import { ATN } from "./ATN.js"
+import { ATNStateType } from "./ATNStateType.js"
+import { IntervalSet } from "../misc/IntervalSet.js"
+import { Override } from "../Decorators.js"
+import { Transition } from "./Transition.js"
 
 const INITIAL_NUM_TRANSITIONS: number = 4;
 

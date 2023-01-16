@@ -5,10 +5,10 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:31.0349605-07:00
 
-import { DecisionInfo } from "./DecisionInfo";
-import { DFA } from "../dfa/DFA";
-import { NotNull } from "../Decorators";
-import { ProfilingATNSimulator } from "./ProfilingATNSimulator";
+import { DecisionInfo } from "./DecisionInfo.js"
+import { DFA } from "../dfa/DFA.js"
+import { NotNull } from "../Decorators.js"
+import { ProfilingATNSimulator } from "./ProfilingATNSimulator.js"
 
 /**
  * This class provides access to specific and aggregate statistics gathered

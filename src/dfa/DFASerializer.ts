@@ -5,16 +5,16 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:38.5097925-07:00
 
-import { ATN } from "../atn/ATN";
-import { ATNSimulator } from "../atn/ATNSimulator";
-import { ATNState } from "../atn/ATNState";
-import { DFA } from "./DFA";
-import { DFAState } from "./DFAState";
-import { NotNull, Override } from "../Decorators";
-import { PredictionContext } from "../atn/PredictionContext";
-import { Recognizer } from "../Recognizer";
-import { Vocabulary } from "../Vocabulary";
-import { VocabularyImpl } from "../VocabularyImpl";
+import { ATN } from "../atn/ATN.js"
+import { ATNSimulator } from "../atn/ATNSimulator.js"
+import { ATNState } from "../atn/ATNState.js"
+import { DFA } from "./DFA.js"
+import { DFAState } from "./DFAState.js"
+import { NotNull, Override } from "../Decorators.js"
+import { PredictionContext } from "../atn/PredictionContext.js"
+import { Recognizer } from "../Recognizer.js"
+import { Vocabulary } from "../Vocabulary.js"
+import { VocabularyImpl } from "../VocabularyImpl.js"
 
 /** A DFA walker that knows how to dump them to serialized strings. */
 export class DFASerializer {

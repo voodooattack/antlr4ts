@@ -5,14 +5,14 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:51.4099946-07:00
 
-import { AbstractPredicateTransition } from "./atn/AbstractPredicateTransition";
-import { ATN } from "./atn/ATN";
-import { ATNState } from "./atn/ATNState";
-import { Parser } from "./Parser";
-import { RecognitionException } from "./RecognitionException";
-import { Recognizer } from "./Recognizer";
-import { NotNull } from "./Decorators";
-import { PredicateTransition } from "./atn/PredicateTransition";
+import { AbstractPredicateTransition } from "./atn/AbstractPredicateTransition.js"
+import { ATN } from "./atn/ATN.js"
+import { ATNState } from "./atn/ATNState.js"
+import { Parser } from "./Parser.js"
+import { RecognitionException } from "./RecognitionException.js"
+import { Recognizer } from "./Recognizer.js"
+import { NotNull } from "./Decorators.js"
+import { PredicateTransition } from "./atn/PredicateTransition.js"
 
 /** A semantic predicate failed during validation.  Validation of predicates
  *  occurs when normally parsing the alternative just like matching a token.

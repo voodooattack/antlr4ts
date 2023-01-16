@@ -6,19 +6,19 @@
 // ConvertTo-TS run at 2016-10-04T11:26:35.3812636-07:00
 
 
-import { Array2DHashMap } from "../misc/Array2DHashMap";
-import { Array2DHashSet } from "../misc/Array2DHashSet";
-import { Arrays } from "../misc/Arrays";
-import { ATN } from "./ATN";
-import { ATNState } from "./ATNState";
-import { EqualityComparator } from "../misc/EqualityComparator";
-import { MurmurHash } from "../misc/MurmurHash";
-import { NotNull, Override } from "../Decorators";
-import { Equatable, JavaSet } from "../misc/Stubs";
-import { PredictionContextCache } from "./PredictionContextCache";
-import { Recognizer } from "../Recognizer";
-import { RuleContext } from "../RuleContext";
-import { RuleTransition } from "./RuleTransition";
+import { Array2DHashMap } from "../misc/Array2DHashMap.js"
+import { Array2DHashSet } from "../misc/Array2DHashSet.js"
+import { Arrays } from "../misc/Arrays.js"
+import { ATN } from "./ATN.js"
+import { ATNState } from "./ATNState.js"
+import { EqualityComparator } from "../misc/EqualityComparator.js"
+import { MurmurHash } from "../misc/MurmurHash.js"
+import { NotNull, Override } from "../Decorators.js"
+import { Equatable, JavaSet } from "../misc/Stubs.js"
+import { PredictionContextCache } from "./PredictionContextCache.js"
+import { Recognizer } from "../Recognizer.js"
+import { RuleContext } from "../RuleContext.js"
+import { RuleTransition } from "./RuleTransition.js"
 
 import * as assert from "assert";
 

@@ -5,26 +5,26 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:50.8290527-07:00
 
-import { ANTLRErrorStrategy } from "./ANTLRErrorStrategy";
-import { ATN } from "./atn/ATN";
-import { ATNState } from "./atn/ATNState";
-import { ATNStateType } from "./atn/ATNStateType";
-import { FailedPredicateException } from "./FailedPredicateException";
-import { InputMismatchException } from "./InputMismatchException";
-import { IntervalSet } from "./misc/IntervalSet";
-import { NoViableAltException } from "./NoViableAltException";
-import { Parser } from "./Parser";
-import { ParserRuleContext } from "./ParserRuleContext";
-import { PredictionContext } from "./atn/PredictionContext";
-import { RecognitionException } from "./RecognitionException";
-import { RuleContext } from "./RuleContext";
-import { RuleTransition } from "./atn/RuleTransition";
-import { TokenStream } from "./TokenStream";
-import { Token } from "./Token";
-import { TokenFactory } from "./TokenFactory";
-import { TokenSource } from "./TokenSource";
-import { Vocabulary } from "./Vocabulary";
-import { Override, NotNull } from "./Decorators";
+import { ANTLRErrorStrategy } from "./ANTLRErrorStrategy.js"
+import { ATN } from "./atn/ATN.js"
+import { ATNState } from "./atn/ATNState.js"
+import { ATNStateType } from "./atn/ATNStateType.js"
+import { FailedPredicateException } from "./FailedPredicateException.js"
+import { InputMismatchException } from "./InputMismatchException.js"
+import { IntervalSet } from "./misc/IntervalSet.js"
+import { NoViableAltException } from "./NoViableAltException.js"
+import { Parser } from "./Parser.js"
+import { ParserRuleContext } from "./ParserRuleContext.js"
+import { PredictionContext } from "./atn/PredictionContext.js"
+import { RecognitionException } from "./RecognitionException.js"
+import { RuleContext } from "./RuleContext.js"
+import { RuleTransition } from "./atn/RuleTransition.js"
+import { TokenStream } from "./TokenStream.js"
+import { Token } from "./Token.js"
+import { TokenFactory } from "./TokenFactory.js"
+import { TokenSource } from "./TokenSource.js"
+import { Vocabulary } from "./Vocabulary.js"
+import { Override, NotNull } from "./Decorators.js"
 
 /**
  * This is the default implementation of {@link ANTLRErrorStrategy} used for

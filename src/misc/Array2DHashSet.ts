@@ -6,12 +6,12 @@
 // ConvertTo-TS run at 2016-10-03T02:09:41.7434086-07:00
 
 import * as assert from "assert";
-import { DefaultEqualityComparator } from "./DefaultEqualityComparator";
-import { EqualityComparator } from "./EqualityComparator";
-import { NotNull, Nullable, Override, SuppressWarnings } from "../Decorators";
-import { JavaCollection, JavaSet } from "./Stubs";
-import { ObjectEqualityComparator } from "./ObjectEqualityComparator";
-import { MurmurHash } from "./MurmurHash";
+import { DefaultEqualityComparator } from "./DefaultEqualityComparator.js"
+import { EqualityComparator } from "./EqualityComparator.js"
+import { NotNull, Nullable, Override, SuppressWarnings } from "../Decorators.js"
+import { JavaCollection, JavaSet } from "./Stubs.js"
+import { ObjectEqualityComparator } from "./ObjectEqualityComparator.js"
+import { MurmurHash } from "./MurmurHash.js"
 
 /** {@link Set} implementation with closed hashing (open addressing). */
 

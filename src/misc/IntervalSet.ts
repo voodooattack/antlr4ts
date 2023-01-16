@@ -5,15 +5,15 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:40.8683480-07:00
 
-import { ArrayEqualityComparator } from "./ArrayEqualityComparator";
-import { IntegerList } from "./IntegerList";
-import { Interval } from "./Interval";
-import { IntSet } from "./IntSet";
-import { Lexer } from "../Lexer";
-import { MurmurHash } from "./MurmurHash";
-import { Override, NotNull } from "../Decorators";
-import { Token } from "../Token";
-import { Vocabulary } from "../Vocabulary";
+import { ArrayEqualityComparator } from "./ArrayEqualityComparator.js"
+import { IntegerList } from "./IntegerList.js"
+import { Interval } from "./Interval.js"
+import { IntSet } from "./IntSet.js"
+import { Lexer } from "../Lexer.js"
+import { MurmurHash } from "./MurmurHash.js"
+import { Override, NotNull } from "../Decorators.js"
+import { Token } from "../Token.js"
+import { Vocabulary } from "../Vocabulary.js"
 
 /**
  * This class implements the {@link IntSet} backed by a sorted array of

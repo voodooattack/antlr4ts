@@ -5,9 +5,9 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:37.3871984-07:00
 
-import { DFAState } from "../dfa/DFAState";
-import { NotNull } from "../Decorators";
-import { ParserRuleContext } from "../ParserRuleContext";
+import { DFAState } from "../dfa/DFAState.js"
+import { NotNull } from "../Decorators.js"
+import { ParserRuleContext } from "../ParserRuleContext.js"
 
 /**
  *

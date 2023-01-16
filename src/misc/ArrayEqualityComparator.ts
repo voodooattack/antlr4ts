@@ -4,11 +4,11 @@
  */
 
 // ConvertTo-TS run at 2016-10-03T02:09:42.2127260-07:00
-import { EqualityComparator } from "./EqualityComparator";
-import { Override } from "../Decorators";
-import { Equatable } from "./Stubs";
-import { MurmurHash } from "./MurmurHash";
-import { ObjectEqualityComparator } from "./ObjectEqualityComparator";
+import { EqualityComparator } from "./EqualityComparator.js"
+import { Override } from "../Decorators.js"
+import { Equatable } from "./Stubs.js"
+import { MurmurHash } from "./MurmurHash.js"
+import { ObjectEqualityComparator } from "./ObjectEqualityComparator.js"
 
 /**
  * This default implementation of {@link EqualityComparator} uses object equality

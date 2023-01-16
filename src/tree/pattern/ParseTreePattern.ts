@@ -4,11 +4,11 @@
  */
 
 // CONVERSTION complete, Burt Harris 10/14/2016
-import { NotNull } from "../../Decorators";
-import { ParseTree } from "../ParseTree";
-import { ParseTreeMatch } from "./ParseTreeMatch";
-import { ParseTreePatternMatcher } from "./ParseTreePatternMatcher";
-import { XPath } from "../xpath/XPath";
+import { NotNull } from "../../Decorators.js"
+import { ParseTree } from "../ParseTree.js"
+import { ParseTreeMatch } from "./ParseTreeMatch.js"
+import { ParseTreePatternMatcher } from "./ParseTreePatternMatcher.js"
+import { XPath } from "../xpath/XPath.js"
 
 /**
  * A pattern like `<ID> = <expr>;` converted to a {@link ParseTree} by

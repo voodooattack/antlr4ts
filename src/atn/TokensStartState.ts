@@ -5,9 +5,9 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:37.7814046-07:00
 
-import { ATNStateType } from "./ATNStateType";
-import { DecisionState } from "./DecisionState";
-import { Override } from "../Decorators";
+import { ATNStateType } from "./ATNStateType.js"
+import { DecisionState } from "./DecisionState.js"
+import { Override } from "../Decorators.js"
 
 /** The Tokens rule start state linking to each lexer rule start state */
 export class TokensStartState extends DecisionState {

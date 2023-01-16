@@ -5,11 +5,11 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:36.8294453-07:00
 
-import { ATNState } from "./ATNState";
-import { Override, NotNull } from "../Decorators";
-import { RuleStartState } from "./RuleStartState";
-import { Transition } from "./Transition";
-import { TransitionType } from "./TransitionType";
+import { ATNState } from "./ATNState.js"
+import { Override, NotNull } from "../Decorators.js"
+import { RuleStartState } from "./RuleStartState.js"
+import { Transition } from "./Transition.js"
+import { TransitionType } from "./TransitionType.js"
 
 /** */
 export class RuleTransition extends Transition {

@@ -5,20 +5,20 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:51.7913318-07:00
 
-import { ANTLRErrorListener } from "./ANTLRErrorListener";
-import { CharStream } from "./CharStream";
-import { CommonTokenFactory } from "./CommonTokenFactory";
-import { IntegerStack } from "./misc/IntegerStack";
-import { Interval } from "./misc/Interval";
-import { IntStream } from "./IntStream";
-import { LexerATNSimulator } from "./atn/LexerATNSimulator";
-import { LexerNoViableAltException } from "./LexerNoViableAltException";
-import { Override } from "./Decorators";
-import { RecognitionException } from "./RecognitionException";
-import { Recognizer } from "./Recognizer";
-import { Token } from "./Token";
-import { TokenFactory } from "./TokenFactory";
-import { TokenSource } from "./TokenSource";
+import { ANTLRErrorListener } from "./ANTLRErrorListener.js"
+import { CharStream } from "./CharStream.js"
+import { CommonTokenFactory } from "./CommonTokenFactory.js"
+import { IntegerStack } from "./misc/IntegerStack.js"
+import { Interval } from "./misc/Interval.js"
+import { IntStream } from "./IntStream.js"
+import { LexerATNSimulator } from "./atn/LexerATNSimulator.js"
+import { LexerNoViableAltException } from "./LexerNoViableAltException.js"
+import { Override } from "./Decorators.js"
+import { RecognitionException } from "./RecognitionException.js"
+import { Recognizer } from "./Recognizer.js"
+import { Token } from "./Token.js"
+import { TokenFactory } from "./TokenFactory.js"
+import { TokenSource } from "./TokenSource.js"
 
 /** A lexer is recognizer that draws input symbols from a character stream.
  *  lexer grammars result in a subclass of this object. A Lexer object

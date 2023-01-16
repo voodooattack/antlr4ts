@@ -5,10 +5,10 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:34.9572142-07:00
 
-import { ATNStateType } from "./ATNStateType";
-import { BlockStartState } from "./BlockStartState";
-import { Override } from "../Decorators";
-import { PlusLoopbackState } from "./PlusLoopbackState";
+import { ATNStateType } from "./ATNStateType.js"
+import { BlockStartState } from "./BlockStartState.js"
+import { Override } from "../Decorators.js"
+import { PlusLoopbackState } from "./PlusLoopbackState.js"
 
 /** Start of `(A|B|...)+` loop. Technically a decision state, but
  *  we don't use for code generation; somebody might need it, so I'm defining

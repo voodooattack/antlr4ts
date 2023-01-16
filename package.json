@@ -3,6 +3,7 @@
   "version": "0.5.0-dev",
   "description": "Root project for ANTLR 4 runtime for Typescript",
   "private": true,
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "prepare": "npm run buildtool && npm link antlr4ts-cli && npm run antlr4ts && npm run tsc && npm link target/src && npm run buildrts",
@@ -74,13 +75,12 @@
     "@types/source-map-support": "^0.4.0",
     "@types/std-mocks": "^1.0.0",
     "codecov": "^3.8.1",
-    "mocha": "^8.2.1",
+    "mocha": "^10.2.0",
     "nyc": "^15.1.0",
     "source-map-support": "^0.5.6",
     "std-mocks": "^1.0.1",
-    "tslint": "^5.11.0",
-    "typedoc": "^0.20.5",
-    "typescript": "^4.0.5"
-  },
-  "dependencies": {}
+    "tslint": "^6.1.3",
+    "typedoc": "^0.23.24",
+    "typescript": "^4.9.4"
+  }
 }

@@ -5,12 +5,12 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:37.3060135-07:00
 
-import { ATNState } from "./ATNState";
-import { IntervalSet } from "../misc/IntervalSet";
-import { Override, NotNull, Nullable } from "../Decorators";
-import { Token } from "../Token";
-import { Transition } from "./Transition";
-import { TransitionType } from "./TransitionType";
+import { ATNState } from "./ATNState.js"
+import { IntervalSet } from "../misc/IntervalSet.js"
+import { Override, NotNull, Nullable } from "../Decorators.js"
+import { Token } from "../Token.js"
+import { Transition } from "./Transition.js"
+import { TransitionType } from "./TransitionType.js"
 
 /** A transition containing a set of values. */
 export class SetTransition extends Transition {

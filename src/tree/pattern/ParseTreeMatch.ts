@@ -4,10 +4,10 @@
  */
 
 // CONVERSTION complete, Burt Harris 10/14/2016
-import { MultiMap } from "../../misc/MultiMap";
-import { NotNull, Override } from "../../Decorators";
-import { ParseTree } from "../ParseTree";
-import { ParseTreePattern } from "./ParseTreePattern";
+import { MultiMap } from "../../misc/MultiMap.js"
+import { NotNull, Override } from "../../Decorators.js"
+import { ParseTree } from "../ParseTree.js"
+import { ParseTreePattern } from "./ParseTreePattern.js"
 
 /**
  * Represents the result of matching a {@link ParseTree} against a tree pattern.

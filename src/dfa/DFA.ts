@@ -5,23 +5,23 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:38.3567094-07:00
 
-import { Array2DHashSet } from "../misc/Array2DHashSet";
-import { ATN } from "../atn/ATN";
-import { ATNConfigSet } from "../atn/ATNConfigSet";
-import { ATNState } from "../atn/ATNState";
-import { ATNType } from "../atn/ATNType";
-import { DecisionState } from "../atn/DecisionState";
-import { DFASerializer } from "./DFASerializer";
-import { DFAState } from "./DFAState";
-import { LexerATNSimulator } from "../atn/LexerATNSimulator";
-import { LexerDFASerializer } from "./LexerDFASerializer";
-import { NotNull } from "../Decorators";
-import { ObjectEqualityComparator } from "../misc/ObjectEqualityComparator";
-import { StarLoopEntryState } from "../atn/StarLoopEntryState";
-import { Token } from "../Token";
-import { TokensStartState } from "../atn/TokensStartState";
-import { Vocabulary } from "../Vocabulary";
-import { VocabularyImpl } from "../VocabularyImpl";
+import { Array2DHashSet } from "../misc/Array2DHashSet.js"
+import { ATN } from "../atn/ATN.js"
+import { ATNConfigSet } from "../atn/ATNConfigSet.js"
+import { ATNState } from "../atn/ATNState.js"
+import { ATNType } from "../atn/ATNType.js"
+import { DecisionState } from "../atn/DecisionState.js"
+import { DFASerializer } from "./DFASerializer.js"
+import { DFAState } from "./DFAState.js"
+import { LexerATNSimulator } from "../atn/LexerATNSimulator.js"
+import { LexerDFASerializer } from "./LexerDFASerializer.js"
+import { NotNull } from "../Decorators.js"
+import { ObjectEqualityComparator } from "../misc/ObjectEqualityComparator.js"
+import { StarLoopEntryState } from "../atn/StarLoopEntryState.js"
+import { Token } from "../Token.js"
+import { TokensStartState } from "../atn/TokensStartState.js"
+import { Vocabulary } from "../Vocabulary.js"
+import { VocabularyImpl } from "../VocabularyImpl.js"
 
 export class DFA {
 	/**

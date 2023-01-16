@@ -5,10 +5,10 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:36.6806851-07:00
 
-import { ATNState } from "./ATNState";
-import { ATNStateType } from "./ATNStateType";
-import { Override } from "../Decorators";
-import { RuleStopState } from "./RuleStopState";
+import { ATNState } from "./ATNState.js"
+import { ATNStateType } from "./ATNStateType.js"
+import { Override } from "../Decorators.js"
+import { RuleStopState } from "./RuleStopState.js"
 
 export class RuleStartState extends ATNState {
 	// This is always set during ATN deserialization

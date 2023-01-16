@@ -5,14 +5,14 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:49.2855056-07:00
 
-import { DefaultErrorStrategy } from "./DefaultErrorStrategy";
-import { Parser } from "./Parser";
-import { InputMismatchException } from "./InputMismatchException";
-import { Override } from "./Decorators";
-import { ParseCancellationException } from "./misc/ParseCancellationException";
-import { ParserRuleContext } from "./ParserRuleContext";
-import { RecognitionException } from "./RecognitionException";
-import { Token } from "./Token";
+import { DefaultErrorStrategy } from "./DefaultErrorStrategy.js"
+import { Parser } from "./Parser.js"
+import { InputMismatchException } from "./InputMismatchException.js"
+import { Override } from "./Decorators.js"
+import { ParseCancellationException } from "./misc/ParseCancellationException.js"
+import { ParserRuleContext } from "./ParserRuleContext.js"
+import { RecognitionException } from "./RecognitionException.js"
+import { Token } from "./Token.js"
 
 /**
  * This implementation of {@link ANTLRErrorStrategy} responds to syntax errors

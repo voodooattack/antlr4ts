@@ -4,8 +4,8 @@
  */
 
 // CONVERSTION complete, Burt Harris 10/14/2016
-import { Override } from "../../Decorators";
-import { ParseTree } from "../ParseTree";
+import { Override } from "../../Decorators.js"
+import { ParseTree } from "../ParseTree.js"
 
 export abstract class XPathElement {
 	protected nodeName: string;

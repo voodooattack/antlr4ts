@@ -5,25 +5,25 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:25.5488013-07:00
 
-import { Array2DHashMap } from "../misc/Array2DHashMap";
-import { Array2DHashSet } from "../misc/Array2DHashSet";
-import { ArrayEqualityComparator } from "../misc/ArrayEqualityComparator";
-import { ATN } from "./ATN";
-import { ATNConfig } from "./ATNConfig";
-import { ATNSimulator } from "./ATNSimulator";
-import { ATNState } from "./ATNState";
-import { BitSet } from "../misc/BitSet";
-import { ConflictInfo } from "./ConflictInfo";
-import { EqualityComparator } from "../misc/EqualityComparator";
-import { JavaSet } from "../misc/Stubs";
-import { NotNull, Override } from "../Decorators";
-import { ObjectEqualityComparator } from "../misc/ObjectEqualityComparator";
-import { PredictionContext } from "./PredictionContext";
-import { PredictionContextCache } from "./PredictionContextCache";
-import { SemanticContext } from "./SemanticContext";
+import { Array2DHashMap } from "../misc/Array2DHashMap.js"
+import { Array2DHashSet } from "../misc/Array2DHashSet.js"
+import { ArrayEqualityComparator } from "../misc/ArrayEqualityComparator.js"
+import { ATN } from "./ATN.js"
+import { ATNConfig } from "./ATNConfig.js"
+import { ATNSimulator } from "./ATNSimulator.js"
+import { ATNState } from "./ATNState.js"
+import { BitSet } from "../misc/BitSet.js"
+import { ConflictInfo } from "./ConflictInfo.js"
+import { EqualityComparator } from "../misc/EqualityComparator.js"
+import { JavaSet } from "../misc/Stubs.js"
+import { NotNull, Override } from "../Decorators.js"
+import { ObjectEqualityComparator } from "../misc/ObjectEqualityComparator.js"
+import { PredictionContext } from "./PredictionContext.js"
+import { PredictionContextCache } from "./PredictionContextCache.js"
+import { SemanticContext } from "./SemanticContext.js"
 
 import * as assert from "assert";
-import * as Utils from "../misc/Utils";
+import * as Utils from "../misc/Utils.js"
 
 interface KeyType { state: number; alt: number; }
 

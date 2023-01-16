@@ -5,11 +5,11 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:24.8229279-07:00
 
-import { BitSet } from "../misc/BitSet";
-import { DecisionEventInfo } from "./DecisionEventInfo";
-import { NotNull } from "../Decorators";
-import { SimulatorState } from "./SimulatorState";
-import { TokenStream } from "../TokenStream";
+import { BitSet } from "../misc/BitSet.js"
+import { DecisionEventInfo } from "./DecisionEventInfo.js"
+import { NotNull } from "../Decorators.js"
+import { SimulatorState } from "./SimulatorState.js"
+import { TokenStream } from "../TokenStream.js"
 
 /**
  * This class represents profiling event information for an ambiguity.

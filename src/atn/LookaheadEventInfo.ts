@@ -5,10 +5,10 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:30.6852565-07:00
 
-import { DecisionEventInfo } from "./DecisionEventInfo";
-import { NotNull } from "../Decorators";
-import { SimulatorState } from "./SimulatorState";
-import { TokenStream } from "../TokenStream";
+import { DecisionEventInfo } from "./DecisionEventInfo.js"
+import { NotNull } from "../Decorators.js"
+import { SimulatorState } from "./SimulatorState.js"
+import { TokenStream } from "../TokenStream.js"
 
 /**
  * This class represents profiling event information for tracking the lookahead

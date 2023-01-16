@@ -3,11 +3,13 @@
     "outDir": "target",
     "sourceMap": true,
     "inlineSources": true,
-    "module": "commonjs",
-    "target": "es2015",
+    "module": "es2022",
+    "target": "es2022",
+    "moduleResolution": "node16",
     "lib": [
       "es6"
     ],
+    "skipLibCheck": true,
     "noImplicitAny": true,
     "strict": true,
     "experimentalDecorators": true,

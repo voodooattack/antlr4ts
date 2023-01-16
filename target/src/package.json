@@ -1,8 +1,10 @@
 {
-  "name": "antlr4ts",
+  "name": "@voodooattack/antlr4ts",
   "version": "0.5.0-dev",
   "description": "ANTLR 4 runtime for JavaScript written in Typescript",
-  "main": "index.js",
+  "type": "module",
+  "module": "index.js",
+  "types": "index.d.ts",
   "scripts": {},
   "repository": {
     "type": "git",

@@ -5,11 +5,11 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:37.7099201-07:00
 
-import { ATNStateType } from "./ATNStateType";
-import { BitSet } from "../misc/BitSet";
-import { DecisionState } from "./DecisionState";
-import { Override } from "../Decorators";
-import { StarLoopbackState } from "./StarLoopbackState";
+import { ATNStateType } from "./ATNStateType.js"
+import { BitSet } from "../misc/BitSet.js"
+import { DecisionState } from "./DecisionState.js"
+import { Override } from "../Decorators.js"
+import { StarLoopbackState } from "./StarLoopbackState.js"
 
 export class StarLoopEntryState extends DecisionState {
 	// This is always set during ATN deserialization

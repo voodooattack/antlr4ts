@@ -5,26 +5,26 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:36.4188352-07:00
 
-import { AmbiguityInfo } from "./AmbiguityInfo";
-import { ATN } from "./ATN";
-import { ATNConfigSet } from "./ATNConfigSet";
-import { ATNSimulator } from "./ATNSimulator";
-import { BitSet } from "../misc/BitSet";
-import { ContextSensitivityInfo } from "./ContextSensitivityInfo";
-import { DecisionInfo } from "./DecisionInfo";
-import { DFA } from "../dfa/DFA";
-import { DFAState } from "../dfa/DFAState";
-import { ErrorInfo } from "./ErrorInfo";
-import { NotNull, Override } from "../Decorators";
-import { LookaheadEventInfo } from "./LookaheadEventInfo";
-import { Parser } from "../Parser";
-import { ParserATNSimulator } from "./ParserATNSimulator";
-import { ParserRuleContext } from "../ParserRuleContext";
-import { PredicateEvalInfo } from "./PredicateEvalInfo";
-import { PredictionContextCache } from "./PredictionContextCache";
-import { SemanticContext } from "./SemanticContext";
-import { SimulatorState } from "./SimulatorState";
-import { TokenStream } from "../TokenStream";
+import { AmbiguityInfo } from "./AmbiguityInfo.js"
+import { ATN } from "./ATN.js"
+import { ATNConfigSet } from "./ATNConfigSet.js"
+import { ATNSimulator } from "./ATNSimulator.js"
+import { BitSet } from "../misc/BitSet.js"
+import { ContextSensitivityInfo } from "./ContextSensitivityInfo.js"
+import { DecisionInfo } from "./DecisionInfo.js"
+import { DFA } from "../dfa/DFA.js"
+import { DFAState } from "../dfa/DFAState.js"
+import { ErrorInfo } from "./ErrorInfo.js"
+import { NotNull, Override } from "../Decorators.js"
+import { LookaheadEventInfo } from "./LookaheadEventInfo.js"
+import { Parser } from "../Parser.js"
+import { ParserATNSimulator } from "./ParserATNSimulator.js"
+import { ParserRuleContext } from "../ParserRuleContext.js"
+import { PredicateEvalInfo } from "./PredicateEvalInfo.js"
+import { PredictionContextCache } from "./PredictionContextCache.js"
+import { SemanticContext } from "./SemanticContext.js"
+import { SimulatorState } from "./SimulatorState.js"
+import { TokenStream } from "../TokenStream.js"
 
 /**
  * @since 4.3

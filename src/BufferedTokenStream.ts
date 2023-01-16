@@ -6,15 +6,15 @@
 // ConvertTo-TS run at 2016-10-04T11:26:49.6074365-07:00
 
 import * as assert from "assert";
-import { CommonToken } from "./CommonToken";
-import { Interval } from "./misc/Interval";
-import { Lexer } from "./Lexer";
-import { NotNull, Override } from "./Decorators";
-import { RuleContext } from "./RuleContext";
-import { Token } from "./Token";
-import { TokenSource } from "./TokenSource";
-import { TokenStream } from "./TokenStream";
-import { WritableToken } from "./WritableToken";
+import { CommonToken } from "./CommonToken.js"
+import { Interval } from "./misc/Interval.js"
+import { Lexer } from "./Lexer.js"
+import { NotNull, Override } from "./Decorators.js"
+import { RuleContext } from "./RuleContext.js"
+import { Token } from "./Token.js"
+import { TokenSource } from "./TokenSource.js"
+import { TokenStream } from "./TokenStream.js"
+import { WritableToken } from "./WritableToken.js"
 
 /**
  * This implementation of {@link TokenStream} loads tokens from a

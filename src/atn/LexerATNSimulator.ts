@@ -5,30 +5,30 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:29.1083066-07:00
 
-import { AcceptStateInfo } from "../dfa/AcceptStateInfo";
-import { ActionTransition } from "./ActionTransition";
-import { ATN } from "./ATN";
-import { ATNConfig } from "./ATNConfig";
-import { ATNConfigSet } from "./ATNConfigSet";
-import { ATNSimulator } from "./ATNSimulator";
-import { ATNState } from "./ATNState";
-import { CharStream } from "../CharStream";
-import { DFA } from "../dfa/DFA";
-import { DFAState } from "../dfa/DFAState";
-import { Interval } from "../misc/Interval";
-import { IntStream } from "../IntStream";
-import { Lexer } from "../Lexer";
-import { LexerActionExecutor } from "./LexerActionExecutor";
-import { LexerNoViableAltException } from "../LexerNoViableAltException";
-import { NotNull, Override } from "../Decorators";
-import { OrderedATNConfigSet } from "./OrderedATNConfigSet";
-import { PredictionContext } from "./PredictionContext";
-import { PredicateTransition } from "./PredicateTransition";
-import { RuleStopState } from "./RuleStopState";
-import { RuleTransition } from "./RuleTransition";
-import { Token } from "../Token";
-import { Transition } from "./Transition";
-import { TransitionType } from "./TransitionType";
+import { AcceptStateInfo } from "../dfa/AcceptStateInfo.js"
+import { ActionTransition } from "./ActionTransition.js"
+import { ATN } from "./ATN.js"
+import { ATNConfig } from "./ATNConfig.js"
+import { ATNConfigSet } from "./ATNConfigSet.js"
+import { ATNSimulator } from "./ATNSimulator.js"
+import { ATNState } from "./ATNState.js"
+import { CharStream } from "../CharStream.js"
+import { DFA } from "../dfa/DFA.js"
+import { DFAState } from "../dfa/DFAState.js"
+import { Interval } from "../misc/Interval.js"
+import { IntStream } from "../IntStream.js"
+import { Lexer } from "../Lexer.js"
+import { LexerActionExecutor } from "./LexerActionExecutor.js"
+import { LexerNoViableAltException } from "../LexerNoViableAltException.js"
+import { NotNull, Override } from "../Decorators.js"
+import { OrderedATNConfigSet } from "./OrderedATNConfigSet.js"
+import { PredictionContext } from "./PredictionContext.js"
+import { PredicateTransition } from "./PredicateTransition.js"
+import { RuleStopState } from "./RuleStopState.js"
+import { RuleTransition } from "./RuleTransition.js"
+import { Token } from "../Token.js"
+import { Transition } from "./Transition.js"
+import { TransitionType } from "./TransitionType.js"
 import * as assert from "assert";
 
 /** "dup" of ParserInterpreter */

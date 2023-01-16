@@ -5,15 +5,15 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:52.3255548-07:00
 
-import { ATNConfigSet } from "./atn/ATNConfigSet";
-import { Parser } from "./Parser";
-import { ParserRuleContext } from "./ParserRuleContext";
-import { RecognitionException } from "./RecognitionException";
-import { Recognizer } from "./Recognizer";
-import { Token } from "./Token";
-import { TokenStream } from "./TokenStream";
-import { IntStream } from "./IntStream";
-import { NotNull } from "./Decorators";
+import { ATNConfigSet } from "./atn/ATNConfigSet.js"
+import { Parser } from "./Parser.js"
+import { ParserRuleContext } from "./ParserRuleContext.js"
+import { RecognitionException } from "./RecognitionException.js"
+import { Recognizer } from "./Recognizer.js"
+import { Token } from "./Token.js"
+import { TokenStream } from "./TokenStream.js"
+import { IntStream } from "./IntStream.js"
+import { NotNull } from "./Decorators.js"
 
 /** Indicates that the parser could not decide which of two or more paths
  *  to take based upon the remaining input. It tracks the starting token
