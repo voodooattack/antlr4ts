@@ -5,12 +5,12 @@
 
 // ConvertTo-TS run at 2016-10-04T11:27:11.6934341-07:00
 
-import { IntervalSet } from "../../src/misc/IntervalSet";
-import { Lexer } from "../../src/Lexer";
-import { Token } from "../../src/Token";
+import { IntervalSet } from "../../src/misc/IntervalSet.js";
+import { Lexer } from "../../src/Lexer.js";
+import { Token } from "../../src/Token.js";
 
 import { suite, test as Test } from "@testdeck/mocha";
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 
 function assertEquals<T>(expected: T, actual: T): void {
 	assert.strictEqual(actual, expected);

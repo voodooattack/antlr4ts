@@ -3,7 +3,7 @@
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 import { CharStream } from "./CharStream.js"
 import { CodePointBuffer } from "./CodePointBuffer.js"
 import { IntStream } from "./IntStream.js"

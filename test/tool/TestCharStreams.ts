@@ -3,10 +3,10 @@
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 import { test, suite } from "@testdeck/mocha";
-import { CharStream } from "../../src/CharStream";
-import { CharStreams } from "../../src/CharStreams";
+import { CharStream } from "../../src/CharStream.js"
+import { CharStreams } from "../../src/CharStreams.js"
 
 @suite
 export class TestCharStreams {

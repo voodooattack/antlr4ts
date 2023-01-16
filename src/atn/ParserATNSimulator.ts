@@ -50,7 +50,7 @@ import { TransitionType } from "./TransitionType.js"
 import { Vocabulary } from "../Vocabulary.js"
 import { VocabularyImpl } from "../VocabularyImpl.js"
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 
 const MAX_SHORT_VALUE = 0xFFFF;
 const MIN_INTEGER_VALUE = -((1 << 31) >>> 0);

@@ -3,8 +3,8 @@
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
 
-import * as assert from "assert";
-import { BitSet } from "../src/misc/BitSet";
+import { strict as assert } from 'assert';
+import { BitSet } from "../src/misc/BitSet.js";
 
 describe("BitSet Tests", () => {
 	const empty = new BitSet();

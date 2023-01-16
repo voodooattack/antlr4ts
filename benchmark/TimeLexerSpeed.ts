@@ -7,15 +7,15 @@ import * as fs from "fs";
 import * as path from "path";
 import * as util from "util";
 
-import { ANTLRInputStream } from "../src/ANTLRInputStream";
-import { CharStream } from "../src/CharStream";
-import { CharStreams } from "../src/CharStreams";
-import { CommonTokenStream } from "../src/CommonTokenStream";
-import { GraphemesLexer } from "./gen/GraphemesLexer";
-import { JavaLexer } from "./gen/std/JavaLexer";
-import { Lexer } from "../src/Lexer";
-import { Stopwatch } from "./Stopwatch";
-import { TimeSpan } from "./TimeSpan";
+import { ANTLRInputStream } from "../src/ANTLRInputStream.js";
+import { CharStream } from "../src/CharStream.js";
+import { CharStreams } from "../src/CharStreams.js";
+import { CommonTokenStream } from "../src/CommonTokenStream.js";
+import { GraphemesLexer } from "./gen/GraphemesLexer.js";
+import { JavaLexer } from "./gen/std/JavaLexer.js";
+import { Lexer } from "../src/Lexer.js";
+import { Stopwatch } from "./Stopwatch.js";
+import { TimeSpan } from "./TimeSpan.js";
 
 function padStart(str: string, n: number): string {
 	if (str.length < n) {

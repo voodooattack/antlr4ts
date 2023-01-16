@@ -68,7 +68,7 @@ import { JavaParser as JavaParserAtn } from "./gen/std-atn/JavaParser.js";
 import { JavaLRParser as JavaLRParser } from "./gen/lr/JavaLRParser.js";
 import { JavaLRParser as JavaLRParserAtn } from "./gen/lr-atn/JavaLRParser.js";
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 import * as fs from "fs";
 import * as path from "path";
 

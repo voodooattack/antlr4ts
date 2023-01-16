@@ -6,6 +6,7 @@
     "module": "es2022",
     "target": "es2022",
     "moduleResolution": "node16",
+    "esModuleInterop": true,
     "lib": [
       "es6"
     ],

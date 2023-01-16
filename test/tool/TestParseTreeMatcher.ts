@@ -5,38 +5,38 @@
 
 // ConvertTo-TS run at 2016-10-04T11:27:15.0984506-07:00
 
-import { CharStream } from "../../src/CharStream";
-import { CharStreams } from "../../src/CharStreams";
-import { CommonTokenStream } from "../../src/CommonTokenStream";
-import { InputMismatchException } from "../../src/InputMismatchException";
-import { Lexer } from "../../src/Lexer";
-import { NoViableAltException } from "../../src/NoViableAltException";
-import { Parser } from "../../src/Parser";
-import { ParseTree } from "../../src/tree/ParseTree";
-import { ParseTreeMatch } from "../../src/tree/pattern/ParseTreeMatch";
-import { ParseTreePattern } from "../../src/tree/pattern/ParseTreePattern";
-import { ParseTreePatternMatcher } from "../../src/tree/pattern/ParseTreePatternMatcher";
-import { Token } from "../../src/Token";
-import { TokenStream } from "../../src/TokenStream";
+import { CharStream } from "../../src/CharStream.js";
+import { CharStreams } from "../../src/CharStreams.js";
+import { CommonTokenStream } from "../../src/CommonTokenStream.js";
+import { InputMismatchException } from "../../src/InputMismatchException.js";
+import { Lexer } from "../../src/Lexer.js";
+import { NoViableAltException } from "../../src/NoViableAltException.js";
+import { Parser } from "../../src/Parser.js";
+import { ParseTree } from "../../src/tree/ParseTree.js";
+import { ParseTreeMatch } from "../../src/tree/pattern/ParseTreeMatch.js";
+import { ParseTreePattern } from "../../src/tree/pattern/ParseTreePattern.js";
+import { ParseTreePatternMatcher } from "../../src/tree/pattern/ParseTreePatternMatcher.js";
+import { Token } from "../../src/Token.js";
+import { TokenStream } from "../../src/TokenStream.js";
 
-import { ParseTreeMatcherX1Lexer } from "./gen/matcher/ParseTreeMatcherX1Lexer";
-import { ParseTreeMatcherX1Parser } from "./gen/matcher/ParseTreeMatcherX1Parser";
-import { ParseTreeMatcherX2Lexer } from "./gen/matcher/ParseTreeMatcherX2Lexer";
-import { ParseTreeMatcherX2Parser } from "./gen/matcher/ParseTreeMatcherX2Parser";
-import { ParseTreeMatcherX3Lexer } from "./gen/matcher/ParseTreeMatcherX3Lexer";
-import { ParseTreeMatcherX3Parser } from "./gen/matcher/ParseTreeMatcherX3Parser";
-import { ParseTreeMatcherX4Lexer } from "./gen/matcher/ParseTreeMatcherX4Lexer";
-import { ParseTreeMatcherX4Parser } from "./gen/matcher/ParseTreeMatcherX4Parser";
-import { ParseTreeMatcherX5Lexer } from "./gen/matcher/ParseTreeMatcherX5Lexer";
-import { ParseTreeMatcherX5Parser } from "./gen/matcher/ParseTreeMatcherX5Parser";
-import { ParseTreeMatcherX6Lexer } from "./gen/matcher/ParseTreeMatcherX6Lexer";
-import { ParseTreeMatcherX6Parser } from "./gen/matcher/ParseTreeMatcherX6Parser";
-import { ParseTreeMatcherX7Lexer } from "./gen/matcher/ParseTreeMatcherX7Lexer";
-import { ParseTreeMatcherX7Parser } from "./gen/matcher/ParseTreeMatcherX7Parser";
-import { ParseTreeMatcherX8Lexer } from "./gen/matcher/ParseTreeMatcherX8Lexer";
-import { ParseTreeMatcherX8Parser } from "./gen/matcher/ParseTreeMatcherX8Parser";
+import { ParseTreeMatcherX1Lexer } from "./gen/matcher/ParseTreeMatcherX1Lexer.js";
+import { ParseTreeMatcherX1Parser } from "./gen/matcher/ParseTreeMatcherX1Parser.js";
+import { ParseTreeMatcherX2Lexer } from "./gen/matcher/ParseTreeMatcherX2Lexer.js";
+import { ParseTreeMatcherX2Parser } from "./gen/matcher/ParseTreeMatcherX2Parser.js";
+import { ParseTreeMatcherX3Lexer } from "./gen/matcher/ParseTreeMatcherX3Lexer.js";
+import { ParseTreeMatcherX3Parser } from "./gen/matcher/ParseTreeMatcherX3Parser.js";
+import { ParseTreeMatcherX4Lexer } from "./gen/matcher/ParseTreeMatcherX4Lexer.js";
+import { ParseTreeMatcherX4Parser } from "./gen/matcher/ParseTreeMatcherX4Parser.js";
+import { ParseTreeMatcherX5Lexer } from "./gen/matcher/ParseTreeMatcherX5Lexer.js";
+import { ParseTreeMatcherX5Parser } from "./gen/matcher/ParseTreeMatcherX5Parser.js";
+import { ParseTreeMatcherX6Lexer } from "./gen/matcher/ParseTreeMatcherX6Lexer.js";
+import { ParseTreeMatcherX6Parser } from "./gen/matcher/ParseTreeMatcherX6Parser.js";
+import { ParseTreeMatcherX7Lexer } from "./gen/matcher/ParseTreeMatcherX7Lexer.js";
+import { ParseTreeMatcherX7Parser } from "./gen/matcher/ParseTreeMatcherX7Parser.js";
+import { ParseTreeMatcherX8Lexer } from "./gen/matcher/ParseTreeMatcherX8Lexer.js";
+import { ParseTreeMatcherX8Parser } from "./gen/matcher/ParseTreeMatcherX8Parser.js";
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 import { suite, test as Test, skip as Ignore } from "@testdeck/mocha";
 
 @suite

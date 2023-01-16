@@ -29,7 +29,7 @@ import { RuleTransition } from "./RuleTransition.js"
 import { Token } from "../Token.js"
 import { Transition } from "./Transition.js"
 import { TransitionType } from "./TransitionType.js"
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 
 /** "dup" of ParserInterpreter */
 export class LexerATNSimulator extends ATNSimulator {

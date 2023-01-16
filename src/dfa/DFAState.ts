@@ -15,7 +15,7 @@ import { NotNull, Override } from "../Decorators.js"
 import { PredictionContext } from "../atn/PredictionContext.js"
 import { SemanticContext } from "../atn/SemanticContext.js"
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 
 /** A DFA state represents a set of possible ATN configurations.
  *  As Aho, Sethi, Ullman p. 117 says "The DFA uses its state

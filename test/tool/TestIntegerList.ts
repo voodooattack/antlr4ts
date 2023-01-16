@@ -3,10 +3,10 @@
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
 
-import { IntegerList } from "../../src/misc/IntegerList";
+import { IntegerList } from "../../src/misc/IntegerList.js";
 
 import { suite, test } from "@testdeck/mocha";
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 
 @suite
 export class TestIntegerList {

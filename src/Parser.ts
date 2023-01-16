@@ -5,7 +5,7 @@
 
 // ConvertTo-TS run at 2016-10-04T11:26:52.4399193-07:00
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 import * as Utils from "./misc/Utils.js"
 
 import { ANTLRErrorListener } from "./ANTLRErrorListener.js"

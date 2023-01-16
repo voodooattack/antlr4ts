@@ -5,12 +5,11 @@
 
 // ConvertTo-TS run at 2016-10-04T11:27:11.1463816-07:00
 
-import * as assert from "assert";
-import assertEquals = assert.strictEqual;
+import { strict as assert, strictEqual as assertEquals } from 'assert';
 import { test as Test, suite } from "@testdeck/mocha";
 
-import { PredictionContext } from "../../src/atn/PredictionContext";
-import { PredictionContextCache } from "../../src/atn/PredictionContextCache";
+import { PredictionContext } from "../../src/atn/PredictionContext.js";
+import { PredictionContextCache } from "../../src/atn/PredictionContextCache.js";
 
 /// Assuming that IdentityHashMap<K, V> == Map<K, V>;
 

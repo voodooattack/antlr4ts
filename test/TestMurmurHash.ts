@@ -3,11 +3,11 @@
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
 
-import { MurmurHash } from "../src/misc/MurmurHash";
+import { MurmurHash } from "../src/misc/MurmurHash.js";
 
 import { suite, test } from "@testdeck/mocha";
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 
 @suite
 export class TestMurmurHash {

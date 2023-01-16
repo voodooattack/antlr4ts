@@ -3,12 +3,12 @@
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 import { test, suite } from "@testdeck/mocha";
-import { CharStreams } from "../../src/CharStreams";
-import { CodePointCharStream } from "../../src/CodePointCharStream";
-import { Interval } from "../../src/misc/Interval";
-import { IntStream } from "../../src/IntStream";
+import { CharStreams } from "../../src/CharStreams.js";
+import { CodePointCharStream } from "../../src/CodePointCharStream.js";
+import { Interval } from "../../src/misc/Interval.js";
+import { IntStream } from "../../src/IntStream.js";
 
 @suite
 export class TestCodePointCharStream {

@@ -5,13 +5,13 @@
 
 // ConvertTo-TS run at 2016-10-04T11:27:01.9391717-07:00
 
-import { CharStream } from "../src/CharStream";
-import { IntegerList } from "../src/misc/IntegerList";
-import { Interval } from "../src/misc/Interval";
-import { NotNull } from "../src/Decorators";
-import { Override } from "../src/Decorators";
+import { CharStream } from "../src/CharStream.js";
+import { IntegerList } from "../src/misc/IntegerList.js";
+import { Interval } from "../src/misc/Interval.js";
+import { NotNull } from "../src/Decorators.js";
+import { Override } from "../src/Decorators.js";
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 
 const BACKSLASH = "\\".charCodeAt(0);
 const LOWER_U = "u".charCodeAt(0);

@@ -18,7 +18,7 @@ import { PredictionContextCache } from "./PredictionContextCache.js"
 import { Recognizer } from "../Recognizer.js"
 import { SemanticContext } from "./SemanticContext.js"
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 
 /**
  * This field stores the bit mask for implementing the

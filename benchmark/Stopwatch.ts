@@ -3,7 +3,7 @@
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
 
-import { TimeSpan } from "./TimeSpan";
+import { TimeSpan } from "./TimeSpan.js";
 
 export class Stopwatch {
 	private _elapsed: number[] = [0, 0];

@@ -11,19 +11,19 @@
 // import static org.junit.Assert.assertEquals;
 // import static org.junit.Assert.assertNotNull;
 
-import { CharStream } from "../../src/CharStream";
-import { CharStreams } from "../../src/CharStreams";
-import { CommonTokenStream } from "../../src/CommonTokenStream";
-import { Interval } from "../../src/misc/Interval";
-import { Lexer } from "../../src/Lexer";
-import { LexerInterpreter } from "../../src/LexerInterpreter";
-import { TokenStreamRewriter } from "../../src/TokenStreamRewriter";
+import { CharStream } from "../../src/CharStream.js";
+import { CharStreams } from "../../src/CharStreams.js";
+import { CommonTokenStream } from "../../src/CommonTokenStream.js";
+import { Interval } from "../../src/misc/Interval.js";
+import { Lexer } from "../../src/Lexer.js";
+import { LexerInterpreter } from "../../src/LexerInterpreter.js";
+import { TokenStreamRewriter } from "../../src/TokenStreamRewriter.js";
 
-import { RewriterLexer1 } from "./gen/rewriter/RewriterLexer1";
-import { RewriterLexer2 } from "./gen/rewriter/RewriterLexer2";
-import { RewriterLexer3 } from "./gen/rewriter/RewriterLexer3";
+import { RewriterLexer1 } from "./gen/rewriter/RewriterLexer1.js";
+import { RewriterLexer2 } from "./gen/rewriter/RewriterLexer2.js";
+import { RewriterLexer3 } from "./gen/rewriter/RewriterLexer3.js";
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 import { suite, test as Test, skip as Ignore } from "@testdeck/mocha";
 
 @suite

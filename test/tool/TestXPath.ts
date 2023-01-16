@@ -5,21 +5,21 @@
 
 // ConvertTo-TS run at 2016-10-04T11:27:38.8508887-07:00
 
-import { CharStream } from "../../src/CharStream";
-import { CharStreams } from "../../src/CharStreams";
-import { CommonTokenStream } from "../../src/CommonTokenStream";
-import { Lexer } from "../../src/Lexer";
-import { Parser } from "../../src/Parser";
-import { ParseTree } from "../../src/tree/ParseTree";
-import { RuleContext } from "../../src/RuleContext";
-import { TerminalNode } from "../../src/tree";
-import { TokenStream } from "../../src/TokenStream";
-import { XPath } from "../../src/tree/xpath/XPath";
+import { CharStream } from "../../src/CharStream.js";
+import { CharStreams } from "../../src/CharStreams.js";
+import { CommonTokenStream } from "../../src/CommonTokenStream.js";
+import { Lexer } from "../../src/Lexer.js";
+import { Parser } from "../../src/Parser.js";
+import { ParseTree } from "../../src/tree/ParseTree.js";
+import { RuleContext } from "../../src/RuleContext.js";
+import { TerminalNode } from "../../src/tree/TerminalNode.js";
+import { TokenStream } from "../../src/TokenStream.js";
+import { XPath } from "../../src/tree/xpath/XPath.js";
 
-import { TestXPathLexer } from "./gen/xpath/TestXPathLexer";
-import { TestXPathParser } from "./gen/xpath/TestXPathParser";
+import { TestXPathLexer } from "./gen/xpath/TestXPathLexer.js";
+import { TestXPathParser } from "./gen/xpath/TestXPathParser.js";
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 import { suite, test as Test, skip as Ignore } from "@testdeck/mocha";
 
 const SAMPLE_PROGRAM: string =

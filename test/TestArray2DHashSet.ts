@@ -3,11 +3,11 @@
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
 
-import {Equatable} from "../src/misc/Stubs";
-import {Array2DHashSet} from "../src/misc/Array2DHashSet";
-import {MurmurHash} from "../src/misc/MurmurHash";
+import {Equatable} from "../src/misc/Stubs.js";
+import {Array2DHashSet} from "../src/misc/Array2DHashSet.js";
+import {MurmurHash} from "../src/misc/MurmurHash.js";
 import { suite, test } from "@testdeck/mocha";
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 
 class EquatableTest implements Equatable {
 

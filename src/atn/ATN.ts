@@ -24,7 +24,7 @@ import { RuleTransition } from "./RuleTransition.js"
 import { Token } from "../Token.js"
 import { TokensStartState } from "./TokensStartState.js"
 
-import * as assert from "assert";
+import { strict as assert } from 'assert';
 
 /** */
 export class ATN {
