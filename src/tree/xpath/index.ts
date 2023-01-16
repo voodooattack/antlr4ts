@@ -3,13 +3,13 @@
  * Licensed under the BSD-3-Clause license. See LICENSE file in the project root for license information.
  */
 
-export * from "./XPath";
-export * from "./XPathElement";
-export * from "./XPathLexer";
-export * from "./XPathLexerErrorListener";
-export * from "./XPathRuleAnywhereElement";
-export * from "./XPathRuleElement";
-export * from "./XPathTokenAnywhereElement";
-export * from "./XPathTokenElement";
-export * from "./XPathWildcardAnywhereElement";
-export * from "./XPathWildcardElement";
+export * from "./XPath.js";
+export * from "./XPathElement.js";
+export * from "./XPathLexer.js";
+export * from "./XPathLexerErrorListener.js";
+export * from "./XPathRuleAnywhereElement.js";
+export * from "./XPathRuleElement.js";
+export * from "./XPathTokenAnywhereElement.js";
+export * from "./XPathTokenElement.js";
+export * from "./XPathWildcardAnywhereElement.js";
+export * from "./XPathWildcardElement.js";
